@@ -1,0 +1,37 @@
+/* navbar */
+.navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.btn{
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+   
+}
+/* home */
+
+#main{
+    height: 820px;
+    width: 120%;
+
+}
+.headings{
+    font-size: 1.7rem;
+}
+#main{
+    height: 820px;
+    width: 120%;
+}
+#ma{
+    height: 820px;
+    width: 120%;
+}
+#abutme{
+    height: 820px;
+    width: 120%;
+}

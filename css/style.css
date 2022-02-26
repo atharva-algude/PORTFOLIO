@@ -1,7 +1,15 @@
-* {
-    margin: 0%;
-    padding: 0%;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
     box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    /* background: #111; */
 }
 .body{
     background-color: black;
@@ -10,12 +18,17 @@
 html{
     scroll-behavior: smooth;
 }
+section{
+    min-height: 100vh;
+    /* padding:1rem; */
+}
+
 .navbar{
     display: flex;
 justify-content: center;
 align-items: center;
 background-color: rgba(0, 0, 0, 0.8);
-position: sticky;
+/* position: sticky; */
 top: 0;
 }
 
@@ -108,8 +121,7 @@ p{
     background: url('../img/r34.jpg') no-repeat center center/cover;
     background-size: cover;
     background-position: center;
-    
-    height: 100vh  ;
+    /* height: 100vh  ; */
     justify-content: center;
     align-items: center;
     color: antiquewhite;
@@ -121,8 +133,8 @@ p{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 350px;
+    /* width: 700px; */
+    /* height: 350px; */
     border: 1px solid white;
     margin: 20px;
     align-items: center;
@@ -130,7 +142,7 @@ p{
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to bottom, rgb(31, 28, 28) 30% ,transparent);
-    background-size: 100% 200%;
+    /* background-size: 100% 200%; */
     transition: all .8s;
     text-align: justify;
 }
@@ -146,7 +158,7 @@ p{
     background-position: center;
     
     
-    height: 100vh  ;
+    /* height: 100vh  ; */
     justify-content: center;
     align-items: center;
     color: antiquewhite;
@@ -157,8 +169,8 @@ p{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 150px;
+    /* width: 700px; */
+    /* height: 150px; */
     border: 1px solid white;
     margin: 20px;
     align-items: center;
@@ -177,8 +189,8 @@ p{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 350px;
+    /* width: 700px; */
+    /* height: 350px; */
     border: 1px solid white;
     margin: 20px;
     align-items: center;
@@ -203,7 +215,7 @@ p{
     
     padding: 20px;
     
-    height: 100vh  ;
+    /* height: 100vh  ; */
     justify-content: center;
     align-items: left;
     color: antiquewhite;
@@ -212,15 +224,15 @@ p{
 } 
 .row{
     display: flex;   
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 .box{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 350px;
+    /* display: flex; */
+    /* width: 350px; */
+    /* height: 350px; */
     border: 1px solid white;
-    margin: 140px;
+    margin: 50px 50px;
     align-items: center;
     text-align: justify;
     padding: 10px;
@@ -234,12 +246,12 @@ p{
 
 }
 .jox{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 350px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 350px; */
+    /* height: 350px; */
     border: 1px solid white;
-    margin: 140px;
+    margin: 50px 50px;
     align-items: center;
     text-align: justify;
     padding: 10px;
@@ -252,7 +264,7 @@ p{
     background-position: left bottom;
 
 }
-#contact{
+/* #contact{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8);
@@ -272,7 +284,68 @@ p{
     color: antiquewhite;
     z-index: -1;
     opacity: 0.7;
-} 
+}  */
+
+
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+    background: url('../img/gear.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: black;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: black;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+footer p:nth-child(3){
+	color: black;
+	font-size: 12px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+
+
+
 .button{
     padding: 10px 35px;
     background-color:transparent;
@@ -292,17 +365,17 @@ color: black;
 box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
 }
 h3{
-    position: absolute;
+    /* position: absolute;
     top: 425%;
-    right: 6%;
+    right: 6%; */
     font-family: 'Times New Roman', Times, serif;
     color: black
 
 }
 h2{
-    position: absolute;
+    /* position: absolute;
     top: 120%;
-    left: 6%;
+    left: 6%; */
     font-family: 'Times New Roman', Times, serif;
     color: white
 
@@ -363,12 +436,13 @@ box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
 }
 .cont{
     display: flex;
-justify-content: center;
+justify-content: space-between;
+/* justify-content: center; */
 align-items: center;
 background-color: rgba(0, 0, 0, 0.8);
 position: sticky;
 top: 0;
-width: 1200px;
+/* width: 1200px; */
 
 }
 
@@ -382,7 +456,7 @@ margin: 30px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.47rem;
     font-weight: bold;
-margin: 100px;
+margin: 100px 0;
 }
 
 .cont ul li a{
@@ -398,11 +472,25 @@ margin: 100px;
     box-shadow: 0 0 10px white;
 }
 
-/*media*/
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .home, .aboutme, .gearhead, .projects, .contact {
-      width: 100%;
+
+
+
+
+/* media queries*/
+@media (max-width:1399px){
+    html{
+        font-size: 75%;
     }
-  }
-  
+    /* body{
+        padding: 1rem 2rem;
+    }
+   #home{
+       background-image: none;
+       background:#111;
+   } */
+}
+@media (max-width: 595px){
+    html{
+        font-size: 50%;
+    }
+}
