@@ -39,7 +39,7 @@ margin: 20px 0px;
 }
 
 .navbar ul li{
-    font-family: Arial, Helvetica, sans-serif;
+/*     font-family: Arial, Helvetica, sans-serif; */
     font-size: 1.1rem;
     font-weight: bold;
 
@@ -86,7 +86,7 @@ margin: 20px 0px;
     left: 2%;
 }
 .headings{
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
@@ -109,7 +109,7 @@ box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
 }
 p{
     font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     color: white;
     font-size: x-large;
 
@@ -131,7 +131,7 @@ p{
     
 } 
 .about{
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     display: flex;
     flex-direction: column;
     /* width: 700px; */
@@ -167,7 +167,7 @@ p{
     opacity: 0.7;
 } 
 .gear{
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     display: flex;
     flex-direction: column;
     /* width: 700px; */
@@ -187,7 +187,7 @@ p{
     background-position: left bottom;
 }
 .polo{
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     display: flex;
     flex-direction: column;
     /* width: 700px; */
@@ -363,7 +363,7 @@ h3{
     /* position: absolute;
     top: 425%;
     right: 6%; */
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     color: black
 
 }
@@ -371,7 +371,7 @@ h2{
     /* position: absolute;
     top: 120%;
     left: 6%; */
-    font-family: 'Times New Roman', Times, serif;
+/*     font-family: 'Times New Roman', Times, serif; */
     color: white
 
 }
@@ -448,7 +448,7 @@ margin: 30px 0px;
 }
 
 .cont ul li{
-    font-family: Arial, Helvetica, sans-serif;
+/*     font-family: Arial, Helvetica, sans-serif; */
     font-size: 1.47rem;
     font-weight: bold;
 margin: 100px 0;
