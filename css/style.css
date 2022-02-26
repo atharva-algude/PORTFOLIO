@@ -90,6 +90,7 @@ margin: 20px 0px;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+	color: royalblue;
 }
 .btn{
     padding: 10px 35px;
@@ -177,7 +178,7 @@ p{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to bottom, rgb(31, 28, 28) 30% ,transparent);
+    background: linear-gradient(to bottom, rgb(31, 28, 28) 30% ,grey);
     background-size: 100% 200%;
     transition: all .8s;
     text-align: top;
@@ -237,7 +238,7 @@ p{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to bottom, rgb(31, 28, 28) 50% ,white);
+    background: linear-gradient(to bottom, rgb(31, 28, 28) 50% ,grey);
     background-size: 250% 500%;
     transition: all .8s;
 }
@@ -256,7 +257,7 @@ p{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to bottom, rgb(31, 28, 28) 50% ,white);
+    background: linear-gradient(to bottom, rgb(31, 28, 28) 50% ,grey);
     background-size: 250% 500%;
     transition: all .8s;
 }
