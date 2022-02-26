@@ -177,7 +177,7 @@ p{
     align-items: center;
     text-align: justify;
    padding: 10px; 
-/*     border-radius: 150px; */
+   border-radius: 15px; 
     background: linear-gradient(to bottom, rgb(31, 28, 28) 30% ,grey); 
     background-size: 100% 200%;
 /*     transition: all .8s; */
