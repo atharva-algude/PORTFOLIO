@@ -170,9 +170,7 @@ p{
 /*      font-family: 'Times New Roman', Times, serif;  */
     display: flex;
     flex-direction: column;
-    /* width: 700px; */
-    /* height: 150px; */
-/*     border: 1px solid white; */
+    
     margin: 20px;
     align-items: center;
     text-align: justify;
